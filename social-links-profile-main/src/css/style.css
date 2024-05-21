@@ -1,0 +1,68 @@
+/* Imported Fonts */
+@font-face {
+    font-family: "Inter Regular";
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter SemiBold";
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+
+/* General Styles */
+
+html {
+    font-family: "Inter Regular";
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+/* Main Section Styles */
+
+main {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img {
+    border-radius: 50%;
+    margin-top: 2,86rem;
+    margin-bottom: 0;
+    max-width: 6.29rem;
+    max-height: 6.29rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 1.71rem;
+}
+
+/* Frontend Mentor Signature */
+
+.attribution {
+    margin-top: 100px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
